@@ -45,5 +45,10 @@ namespace pismeni_na_satu
         {
             this.Close();
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

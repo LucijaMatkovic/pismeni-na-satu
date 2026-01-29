@@ -16,5 +16,18 @@ namespace pismeni_na_satu
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            foreach (string stat in Admin.GetCountByGenre())
+            {
+                lstStats.Items.Add(stat);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
